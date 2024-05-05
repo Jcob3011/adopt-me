@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/modules/activities-module/activities-domain/activities-domain.iml" filepath="$PROJECT_DIR$/modules/activities-module/activities-domain/activities-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/activities-module/activities-infrastructure/activities-infrastructure.iml" filepath="$PROJECT_DIR$/modules/activities-module/activities-infrastructure/activities-infrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/activities-module/activities-module.iml" filepath="$PROJECT_DIR$/modules/activities-module/activities-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/activities-module/activities-rest/activities-rest.iml" filepath="$PROJECT_DIR$/modules/activities-module/activities-rest/activities-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adopt-me.iml" filepath="$PROJECT_DIR$/adopt-me.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/animal-module/animal-domain/animal-domain.iml" filepath="$PROJECT_DIR$/modules/animal-module/animal-domain/animal-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/animal-module/animal-module.iml" filepath="$PROJECT_DIR$/modules/animal-module/animal-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/animal-module/animal-module-infrastructure/animal-module-infrastructure.iml" filepath="$PROJECT_DIR$/modules/animal-module/animal-module-infrastructure/animal-module-infrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/animal-module/animal-module-rest/animal-module-rest.iml" filepath="$PROJECT_DIR$/modules/animal-module/animal-module-rest/animal-module-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/animal-sanctuary-module/animal-sanctuary-domain/animal-sanctuary-domain.iml" filepath="$PROJECT_DIR$/modules/animal-sanctuary-module/animal-sanctuary-domain/animal-sanctuary-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/applications/applications.iml" filepath="$PROJECT_DIR$/applications/applications.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/article-module/article-domain/article-domain.iml" filepath="$PROJECT_DIR$/modules/article-module/article-domain/article-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/article-module/article-infrastructure/article-infrastructure.iml" filepath="$PROJECT_DIR$/modules/article-module/article-infrastructure/article-infrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/article-module/article-module.iml" filepath="$PROJECT_DIR$/modules/article-module/article-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/article-module/article-rest/article-rest.iml" filepath="$PROJECT_DIR$/modules/article-module/article-rest/article-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/attachment-module/attachment-domain/attachment-domain.iml" filepath="$PROJECT_DIR$/modules/attachment-module/attachment-domain/attachment-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/attachment-module/attachment-infrastructure/attachment-infrastructure.iml" filepath="$PROJECT_DIR$/modules/attachment-module/attachment-infrastructure/attachment-infrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/attachment-module/attachment-module.iml" filepath="$PROJECT_DIR$/modules/attachment-module/attachment-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/attachment-module/attachment-rest/attachment-rest.iml" filepath="$PROJECT_DIR$/modules/attachment-module/attachment-rest/attachment-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons/common-domain/common-domain.iml" filepath="$PROJECT_DIR$/commons/common-domain/common-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons/common-infrastructure/common-infrastructure.iml" filepath="$PROJECT_DIR$/commons/common-infrastructure/common-infrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons/common-rest/common-rest.iml" filepath="$PROJECT_DIR$/commons/common-rest/common-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons/commons.iml" filepath="$PROJECT_DIR$/commons/commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/configuration/configuration.iml" filepath="$PROJECT_DIR$/configuration/configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/gmail-auth-module/gmail-auth-domain/gmail-auth-domain.iml" filepath="$PROJECT_DIR$/modules/gmail-auth-module/gmail-auth-domain/gmail-auth-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/gmail-auth-module/gmail-auth-infrastructure/gmail-auth-infrastructure.iml" filepath="$PROJECT_DIR$/modules/gmail-auth-module/gmail-auth-infrastructure/gmail-auth-infrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/gmail-auth-module/gmail-auth-module.iml" filepath="$PROJECT_DIR$/modules/gmail-auth-module/gmail-auth-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/gmail-auth-module/gmail-auth-rest/gmail-auth-rest.iml" filepath="$PROJECT_DIR$/modules/gmail-auth-module/gmail-auth-rest/gmail-auth-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/health-module/health-domain/health-domain.iml" filepath="$PROJECT_DIR$/modules/health-module/health-domain/health-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/health-module/health-infrastructure/health-infrastructure.iml" filepath="$PROJECT_DIR$/modules/health-module/health-infrastructure/health-infrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/health-module/health-module.iml" filepath="$PROJECT_DIR$/modules/health-module/health-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/health-module/health-rest/health-rest.iml" filepath="$PROJECT_DIR$/modules/health-module/health-rest/health-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/login-pass-auth-module/login-pass-auth-domain/login-pass-auth-domain.iml" filepath="$PROJECT_DIR$/modules/login-pass-auth-module/login-pass-auth-domain/login-pass-auth-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/login-pass-auth-module/login-pass-auth-infrastructure/login-pass-auth-infrastructure.iml" filepath="$PROJECT_DIR$/modules/login-pass-auth-module/login-pass-auth-infrastructure/login-pass-auth-infrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/login-pass-auth-module/login-pass-auth-module.iml" filepath="$PROJECT_DIR$/modules/login-pass-auth-module/login-pass-auth-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/login-pass-auth-module/login-pass-auth-rest/login-pass-auth-rest.iml" filepath="$PROJECT_DIR$/modules/login-pass-auth-module/login-pass-auth-rest/login-pass-auth-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/modules.iml" filepath="$PROJECT_DIR$/modules/modules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/notification-module/notification-domain/notification-domain.iml" filepath="$PROJECT_DIR$/modules/notification-module/notification-domain/notification-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/notification-module/notification-infrastructure/notification-infrastructure.iml" filepath="$PROJECT_DIR$/modules/notification-module/notification-infrastructure/notification-infrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/notification-module/notification-module.iml" filepath="$PROJECT_DIR$/modules/notification-module/notification-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/notification-module/notification-rest/notification-rest.iml" filepath="$PROJECT_DIR$/modules/notification-module/notification-rest/notification-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/configuration/security-module/security-module.iml" filepath="$PROJECT_DIR$/configuration/security-module/security-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/applications/system/system.iml" filepath="$PROJECT_DIR$/applications/system/system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/tag-module/tag-domain/tag-domain.iml" filepath="$PROJECT_DIR$/modules/tag-module/tag-domain/tag-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/tag-module/tag-infrastructure/tag-infrastructure.iml" filepath="$PROJECT_DIR$/modules/tag-module/tag-infrastructure/tag-infrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/tag-module/tag-module.iml" filepath="$PROJECT_DIR$/modules/tag-module/tag-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/tag-module/tag-rest/tag-rest.iml" filepath="$PROJECT_DIR$/modules/tag-module/tag-rest/tag-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/configuration/thymeleaf-module/thymeleaf-module.iml" filepath="$PROJECT_DIR$/configuration/thymeleaf-module/thymeleaf-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/user-account-module/user-account-domain/user-account-domain.iml" filepath="$PROJECT_DIR$/modules/user-account-module/user-account-domain/user-account-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/user-account-module/user-account-infrastructure/user-account-infrastructure.iml" filepath="$PROJECT_DIR$/modules/user-account-module/user-account-infrastructure/user-account-infrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/user-account-module/user-account-module.iml" filepath="$PROJECT_DIR$/modules/user-account-module/user-account-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/user-account-module/user-account-rest/user-account-rest.iml" filepath="$PROJECT_DIR$/modules/user-account-module/user-account-rest/user-account-rest.iml" />
+    </modules>
+  </component>
+</project>

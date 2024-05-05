@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="security-module" />
+        <module name="gmail-auth-rest" />
+        <module name="health-domain" />
+        <module name="article-domain" />
+        <module name="health-infrastructure" />
+        <module name="tag-rest" />
+        <module name="animal-module-rest" />
+        <module name="user-account-infrastructure" />
+        <module name="animal-domain" />
+        <module name="user-account-domain" />
+        <module name="common-domain" />
+        <module name="login-pass-auth-infrastructure" />
+        <module name="attachment-domain" />
+        <module name="notification-domain" />
+        <module name="activities-infrastructure" />
+        <module name="activities-domain" />
+        <module name="article-infrastructure" />
+        <module name="attachment-rest" />
+        <module name="user-account-rest" />
+        <module name="login-pass-auth-domain" />
+        <module name="gmail-auth-domain" />
+        <module name="health-rest" />
+        <module name="gmail-auth-infrastructure" />
+        <module name="tag-domain" />
+        <module name="attachment-infrastructure" />
+        <module name="thymeleaf-module" />
+        <module name="common-rest" />
+        <module name="common-infrastructure" />
+        <module name="system" />
+        <module name="login-pass-auth-rest" />
+        <module name="notification-infrastructure" />
+        <module name="animal-module-infrastructure" />
+        <module name="article-rest" />
+        <module name="tag-infrastructure" />
+        <module name="activities-rest" />
+        <module name="notification-rest" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="activities-domain" target="16" />
+      <module name="activities-infrastructure" target="16" />
+      <module name="activities-module" target="16" />
+      <module name="activities-rest" target="16" />
+      <module name="adopt-me" target="16" />
+      <module name="animal-domain" target="16" />
+      <module name="animal-module" target="16" />
+      <module name="animal-module-infrastructure" target="16" />
+      <module name="animal-module-rest" target="16" />
+      <module name="applications" target="16" />
+      <module name="article-domain" target="16" />
+      <module name="article-infrastructure" target="16" />
+      <module name="article-module" target="16" />
+      <module name="article-rest" target="16" />
+      <module name="attachment-domain" target="16" />
+      <module name="attachment-infrastructure" target="16" />
+      <module name="attachment-module" target="16" />
+      <module name="attachment-rest" target="16" />
+      <module name="common-domain" target="16" />
+      <module name="common-infrastructure" target="16" />
+      <module name="common-rest" target="16" />
+      <module name="commons" target="16" />
+      <module name="configuration" target="16" />
+      <module name="gmail-auth-domain" target="16" />
+      <module name="gmail-auth-infrastructure" target="16" />
+      <module name="gmail-auth-module" target="16" />
+      <module name="gmail-auth-rest" target="16" />
+      <module name="health-domain" target="16" />
+      <module name="health-infrastructure" target="16" />
+      <module name="health-module" target="16" />
+      <module name="health-rest" target="16" />
+      <module name="login-pass-auth-domain" target="16" />
+      <module name="login-pass-auth-infrastructure" target="16" />
+      <module name="login-pass-auth-module" target="16" />
+      <module name="login-pass-auth-rest" target="16" />
+      <module name="modules" target="16" />
+      <module name="notification-domain" target="16" />
+      <module name="notification-infrastructure" target="16" />
+      <module name="notification-module" target="16" />
+      <module name="notification-rest" target="16" />
+      <module name="security-module" target="16" />
+      <module name="system" target="16" />
+      <module name="tag-domain" target="16" />
+      <module name="tag-infrastructure" target="16" />
+      <module name="tag-module" target="16" />
+      <module name="tag-rest" target="16" />
+      <module name="thymeleaf-module" target="16" />
+      <module name="user-account-domain" target="16" />
+      <module name="user-account-infrastructure" target="16" />
+      <module name="user-account-module" target="16" />
+      <module name="user-account-rest" target="16" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="activities-domain" options="-parameters" />
+      <module name="activities-infrastructure" options="-parameters" />
+      <module name="activities-rest" options="-parameters" />
+      <module name="animal-domain" options="-parameters" />
+      <module name="animal-module-infrastructure" options="-parameters" />
+      <module name="animal-module-rest" options="-parameters" />
+      <module name="article-domain" options="-parameters" />
+      <module name="article-infrastructure" options="-parameters" />
+      <module name="article-rest" options="-parameters" />
+      <module name="attachment-domain" options="-parameters" />
+      <module name="attachment-infrastructure" options="-parameters" />
+      <module name="attachment-rest" options="-parameters" />
+      <module name="common-domain" options="-parameters" />
+      <module name="common-infrastructure" options="-parameters" />
+      <module name="common-rest" options="-parameters" />
+      <module name="gmail-auth-domain" options="-parameters" />
+      <module name="gmail-auth-infrastructure" options="-parameters" />
+      <module name="gmail-auth-rest" options="-parameters" />
+      <module name="health-domain" options="-parameters" />
+      <module name="health-infrastructure" options="-parameters" />
+      <module name="health-rest" options="-parameters" />
+      <module name="login-pass-auth-domain" options="-parameters" />
+      <module name="login-pass-auth-infrastructure" options="-parameters" />
+      <module name="login-pass-auth-rest" options="-parameters" />
+      <module name="notification-domain" options="-parameters" />
+      <module name="notification-infrastructure" options="-parameters" />
+      <module name="notification-rest" options="-parameters" />
+      <module name="security-module" options="-parameters" />
+      <module name="system" options="-parameters" />
+      <module name="tag-domain" options="-parameters" />
+      <module name="tag-infrastructure" options="-parameters" />
+      <module name="tag-rest" options="-parameters" />
+      <module name="thymeleaf-module" options="-parameters" />
+      <module name="user-account-domain" options="-parameters" />
+      <module name="user-account-infrastructure" options="-parameters" />
+      <module name="user-account-rest" options="-parameters" />
+    </option>
+  </component>
+</project>

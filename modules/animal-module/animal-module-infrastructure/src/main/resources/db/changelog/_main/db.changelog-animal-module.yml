@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - include:
+      file: classpath:db/changelog/animal/create-animal-table.xml
+  - include:
+      file: classpath:db/changelog/animal/create-animal-tag-table.xml
+  - include:
+      file: classpath:db/changelog/animal/make-attachment-nullable-migration.xml
+  - include:
+      file: classpath:db/changelog/animal/create-health-booklet-table.xml

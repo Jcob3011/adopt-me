@@ -1,0 +1,23 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <changeSet author="Jakub Jędrzejewski" id="create-question-tag-table.xml">
+        <createTable tableName="animal_tag">
+            <column name="animal_id" type="varchar(255)">
+                <constraints primaryKey="true" primaryKeyName="pk_animal_tag" nullable="false"/>
+            </column>
+            <column name="tag_id" type="varchar(255)">
+                <constraints primaryKey="true" primaryKeyName="pk_animal_tag" nullable="false"/>
+            </column>
+        </createTable>
+
+        <addForeignKeyConstraint constraintName="fk_animal_tags_animal_id_on_animal"
+                                 baseTableName="animal_tag"
+                                 baseColumnNames="animal_id"
+                                 referencedTableName="animal"
+                                 referencedColumnNames="id"/>
+
+    </changeSet>
+
+</databaseChangeLog>

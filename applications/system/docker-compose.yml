@@ -1,0 +1,11 @@
+services:
+  system-db:
+    image: postgres
+    container_name: adopt-me-db
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=admin123
+      - POSTGRES_DB=adopt-me-db
+      - PGPORT=5432
+    ports:
+      - '5432:5432'

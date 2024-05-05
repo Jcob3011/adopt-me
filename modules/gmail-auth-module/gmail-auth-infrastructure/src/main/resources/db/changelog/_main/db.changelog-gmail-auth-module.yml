@@ -1,0 +1,3 @@
+databaseChangeLog:
+  - include:
+      file: classpath:db/changelog/gmail-auth/create-gmail-auth-user-table.xml
