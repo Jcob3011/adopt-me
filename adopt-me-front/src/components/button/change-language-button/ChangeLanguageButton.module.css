@@ -1,0 +1,28 @@
+.ChangeLanguageButtonBox {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.ChangeLanguageButton,
+.ChangeLanguageButtonActive {
+    width: 34px;
+    height: 34px;
+    padding: 6px !important;
+    font-size: 0.875rem !important;
+    font-weight: 400 !important;
+    line-height: 1.334em !important;
+    border-radius: 8px !important;
+    transition: all 0.2s ease-in-out 0s !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+    border: none !important;
+}
+
+.ChangeLanguageButton:hover,
+.ChangeLanguageButtonActive:hover {
+    cursor: pointer;
+}

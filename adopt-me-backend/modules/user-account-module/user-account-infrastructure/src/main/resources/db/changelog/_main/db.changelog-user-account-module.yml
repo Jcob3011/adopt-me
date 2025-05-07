@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: classpath:db/changelog/user-account/create-user-account-table.xml
+  - include:
+      file: classpath:db/changelog/user-account/create-activate-account-token-table.xml
+  - include:
+      file: classpath:db/changelog/user-account/add-attachment-column-to-user-account-table.xml

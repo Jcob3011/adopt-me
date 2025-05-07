@@ -1,0 +1,21 @@
+.layoutContainer {
+    padding: 16px;
+    border-radius: 8px 8px 0 0;
+    min-height: calc(100vh - 73px);
+    clear: both;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 73px;
+    flex-direction: column;
+}
+
+.mainContainer {
+    padding-left: 0;
+    padding-right: 20px !important;
+    background-color: transparent !important;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    position: fixed;
+}

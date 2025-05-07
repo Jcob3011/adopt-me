@@ -1,0 +1,40 @@
+.SelectCheckboxField {
+    border-radius: 4px !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0 !important;
+    box-sizing: border-box !important;
+    height: max-content !important;
+}
+
+.MenuItem,
+.MenuItemSelected {
+    font-size: 0.875rem !important;
+    font-weight: 400 !important;
+    line-height: 1.334em !important;
+    padding: 6px 10px !important;
+}
+
+.MenuItem:hover,
+.MenuItemSelected {
+    background-color: rgba(33, 150, 243, 0.08) !important;
+}
+
+.MenuItem:hover {
+    cursor: pointer !important;
+}
+
+.TextFieldLabel,
+.NoOptionsLabel {
+    font-size: 14px !important;
+    letter-spacing: 0 !important;
+}
+
+.AutocompleteField {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.AutocompleteListBox {
+    max-height: 250px !important;
+}

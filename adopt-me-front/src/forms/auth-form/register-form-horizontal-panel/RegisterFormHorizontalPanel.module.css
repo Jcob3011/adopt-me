@@ -1,0 +1,15 @@
+.RegisterFormHorizontalPanel {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    gap: 15px !important;
+}
+
+@media (min-width: 0) and (max-width: 577px) {
+    .RegisterFormHorizontalPanel {
+        flex-direction: column !important;
+        align-items: start !important;
+        justify-content: stretch;
+    }
+}

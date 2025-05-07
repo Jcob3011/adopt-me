@@ -1,0 +1,21 @@
+.MainBox {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+.MainBox .MuiTextField-root {
+    margin: 2px !important;
+    width: 100% !important;
+}
+
+.FormikTextField {
+    margin-left: 16px !important;
+    margin-bottom: 16px !important;
+    margin-top: 16px !important;
+}
+
+.FormikButton {
+    margin-right: 8px !important;
+    margin-left: 8px !important;
+}

@@ -1,0 +1,9 @@
+.centerBox {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.fullSizeBox {
+    flex: 1 !important;
+}

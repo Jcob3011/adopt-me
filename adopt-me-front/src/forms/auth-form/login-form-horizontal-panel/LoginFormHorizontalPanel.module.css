@@ -1,0 +1,13 @@
+.LoginFormHorizontalPanel {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+@media (min-width: 0) and (max-width: 399px) {
+    .LoginFormHorizontalPanel {
+        flex-direction: column !important;
+        align-items: start !important;
+    }
+}

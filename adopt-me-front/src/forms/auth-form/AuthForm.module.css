@@ -1,0 +1,147 @@
+body {
+    background-color: #eef2f6;
+}
+
+.AuthFormBackground {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 100vh;
+}
+
+.AuthFormBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.FooterText {
+    text-decoration: none !important;
+    font-size: 0.7rem !important;
+    font-weight: 400 !important;
+    color: rgb(105, 117, 134) !important;
+    line-height: 1.57 !important;
+    margin: 8px 24px 24px 24px !important;
+}
+
+.AuthForm {
+    background-color: #fff !important;
+    border-radius: 8px !important;
+    padding: 0 35px 40px 35px !important;
+    border: none rgba(224, 224, 224, 0.596) !important;
+    width: 400px !important;
+    margin: 20px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    overflow: hidden !important;
+}
+
+.FooterText:hover {
+    text-decoration: underline !important;
+}
+
+.AuthFormTitle {
+    margin: 0 0 0.35em !important;
+    line-height: 1.2 !important;
+    font-size: 1.5rem !important;
+    font-weight: 700 !important;
+    color: rgb(103, 58, 183);
+    text-align: center;
+}
+
+.AuthFormSubtitle {
+    margin: 8px 0 5px 0 !important;
+    color: rgb(105, 117, 134) !important;
+    font-weight: 400 !important;
+    line-height: 1.66 !important;
+    font-size: 16px !important;
+    padding-bottom: 7px !important;
+    text-align: center;
+}
+
+.AuthFormSubtitle2 {
+    margin-top: 8px !important;
+    margin-bottom: 10px !important;
+    font-size: 0.875rem !important;
+    font-weight: 500 !important;
+    color: rgb(18, 25, 38) !important;
+    line-height: 1.75 !important;
+    text-align: center;
+}
+
+.AuthFormControl {
+    padding-top: 16px !important;
+    margin-bottom: 0 !important;
+}
+
+.AdoptLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+    padding-top: 36px;
+    height: 35px;
+}
+
+.AdoptLogo > img {
+    width: 35px;
+    height: 35px;
+}
+
+.FlexboxPositionBox {
+    width: 0;
+    height: 0;
+}
+
+@media (min-width: 0) and (max-width: 350px) {
+    .AuthForm {
+        padding: 0 16px 24px 16px !important;
+        width: auto !important;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 400px) {
+    .AuthForm {
+        padding: 0 16px 24px 16px !important;
+        width: 300px !important;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 471px) {
+    .AuthForm {
+        padding: 0 16px 24px 16px !important;
+        width: 340px !important;
+    }
+}
+
+@media (min-width: 471px) and (max-width: 600px) {
+    .AuthForm {
+        width: 376px !important;
+        padding: 0 16px 24px 16px !important;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+    .AuthForm {
+        width: 350px !important;
+        padding: 0 24px 24px 24px !important;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1536px) {
+    .AuthForm {
+        width: 424px !important;
+        padding: 0 24px 24px 24px !important;
+    }
+}
+
+@media (max-width: 900px) {
+    .AuthFormTitle {
+        font-size: 1.25rem !important;
+        font-weight: 600 !important;
+        line-height: 1.167 !important;
+    }
+}

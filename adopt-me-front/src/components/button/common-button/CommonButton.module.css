@@ -1,0 +1,38 @@
+.CommonButton,
+.CommonButtonAnimated,
+.CommonButtonDisabled {
+    font-size: 0.9375em !important;
+    line-height: 1.75 !important;
+    min-width: 64px !important;
+    padding: 7px 22px !important;
+    font-weight: 500 !important;
+    text-transform: none !important;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    transition-delay: 0s !important;
+    background-color: rgb(103, 58, 183);
+    margin-top: 22px !important;
+    letter-spacing: 0 !important;
+}
+
+.CommonButtonAnimated {
+    transform: scale(0.9) !important;
+    transition: all 0.10s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.CommonButtonDisabled {
+    background-color: #e0e0e0 !important;
+    color: #aaaaaa !important;
+    border: none !important;
+}
+
+.CommonButtonIcon,
+.CommonButtonIcon > img {
+    width: 18px !important;
+    height: 18px !important;
+}
+
+.CommonButtonIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,14 @@
+.dialogBox {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.button {
+
+}
+
+.buttonBox {
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+}

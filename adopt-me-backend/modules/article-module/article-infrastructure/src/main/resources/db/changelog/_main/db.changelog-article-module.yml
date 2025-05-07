@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: classpath:db/changelog/article/create-article-table.xml
+  - include:
+      file: classpath:db/changelog/article/make-attachment-nullable-migration.xml

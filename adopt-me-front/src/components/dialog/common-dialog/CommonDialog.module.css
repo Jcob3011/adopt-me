@@ -1,0 +1,36 @@
+.Dialog {
+    box-shadow: rgba(0, 0, 0, 0.2) 0 11px 15px -7px,
+    rgba(0, 0, 0, 0.14) 0 24px 38px 3px,
+    rgba(0, 0, 0, 0.12) 0 9px 46px 8px !important;
+    border-radius: 4px !important;
+    padding: 12px 0 !important;
+}
+
+.DialogTitle {
+    font-weight: 500 !important;
+    line-height: 1.6 !important;
+    padding: 16px 24px !important;
+    flex: 0 0 auto !important;
+    font-size: 1.25rem !important;
+}
+
+.DialogContent {
+    letter-spacing: 0 !important;
+    font-weight: 400 !important;
+    line-height: 1.5em !important;
+    font-size: 0.875rem !important;
+}
+
+.DialogSubmitButton,
+.DialogCancelButton {
+    text-transform: capitalize !important;
+    font-size: 0.8125rem !important;
+    line-height: 1.75 !important;
+    min-width: 64px !important;
+    padding: 4px 10px !important;
+}
+
+.DialogSubmitButton {
+    margin-right: 12px !important;
+    background-color: rgb(103, 58, 183) !important;
+}

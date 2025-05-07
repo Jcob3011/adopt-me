@@ -1,0 +1,11 @@
+.box {
+    display: flex !important;
+    justify-content: center !important;
+    height: 100% !important;
+    align-items: center !important;
+
+}
+
+.iconButton {
+    margin-right: 25px !important;
+}

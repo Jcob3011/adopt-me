@@ -1,0 +1,9 @@
+.textFontWeight {
+    font-size: 0.875rem !important;
+    font-weight: 500 !important;
+}
+
+.actionItemCell {
+    width: 80px !important;
+    text-align: center !important;
+}

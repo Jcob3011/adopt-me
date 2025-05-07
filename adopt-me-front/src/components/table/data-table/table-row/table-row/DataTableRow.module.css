@@ -1,0 +1,14 @@
+.tableCollapseCell {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+
+.collapse {
+    padding-top: 10px !important;
+    padding-bottom: 15px !important;
+}
+
+.actionIconStack {
+    align-items: center !important;
+    justify-content: space-between !important;
+}

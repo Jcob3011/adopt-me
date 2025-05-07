@@ -1,0 +1,17 @@
+.AddHealthButton {
+    font-size: 0.875rem !important;
+    font-weight: 500 !important;
+    line-height: 1.334 !important;
+    text-transform: none !important;
+    border-radius: 4px !important;
+    color: #707f90 !important;
+    min-width: 15px !important;
+    width: 15px !important;
+    max-width: 15px !important;
+    padding: 5px 15px !important;
+}
+
+.AddAnswerIcon {
+    width: 18px !important;
+    height: 18px !important;
+}

@@ -1,0 +1,48 @@
+.StatisticItem {
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    height: 70px !important;
+    background-image: none;
+    overflow: hidden;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: none !important;
+    border-radius: 8px !important;
+}
+
+.StatisticIcon {
+    display: flex;
+    align-items: center;
+}
+.StatisticValue {
+    font-weight: bold;
+}
+
+.StatisticLabel {
+    font-size: 12px;
+}
+
+.GridContainer {
+    display: grid !important;
+    gap: 15px;
+    grid-template-columns: repeat(4, 1fr) !important;
+}
+
+@media (max-width: 1400px) {
+    .GridContainer {
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .GridContainer {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
+@media (max-width: 900px) {
+    .GridContainer {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+}

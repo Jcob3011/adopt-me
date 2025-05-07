@@ -1,0 +1,16 @@
+.LoadingSpinner,
+.EntireScreenLoadingSpinner {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+}
+
+.LoadingSpinner {
+    height: 100% !important;
+}
+
+.EntireScreenLoadingSpinner {
+    height: 100vh !important;
+    background-color: #eef2f6 !important;
+}

@@ -1,0 +1,25 @@
+.leftBox {
+    display: flex !important;
+    flex-grow: 1 !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
+.title {
+    font-size: 1.35rem !important;
+}
+
+.buttonBox {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    flex-direction: row !important;
+    flex-grow: 1 !important;
+}
+
+.outerBox {
+    display: flex !important;
+    align-items: flex-end !important;
+    justify-content: space-between !important;
+    flex-direction: row !important;
+}

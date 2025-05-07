@@ -1,0 +1,188 @@
+.Details {
+    box-shadow: none !important;
+    border-radius: 8px !important;
+
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
+}
+
+.Details:hover {
+    box-shadow: rgba(32, 40, 45, 0.08) 0 2px 10px 0 !important;
+}
+
+.DetailsHeader {
+    padding: 15px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    font-size: 0.875rem !important;
+    font-weight: 500 !important;
+    line-height: 1.334 !important;
+}
+
+@media (max-width: 500px) {
+    .DetailsHeader {
+        flex-direction: column !important;
+        gap: 10px !important;
+    }
+
+    .DetailsHeaderButtons {
+        display: flex !important;
+        flex-direction: column !important;
+
+    }
+}
+
+.DetailsContent {
+    padding: 20px !important;
+}
+
+.DetailsContentHeader {
+    font-size: 0.875rem !important;
+    font-weight: 500 !important;
+    line-height: 1.75 !important;
+    padding-bottom: 10px !important;
+}
+
+.DetailsContentItem {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    padding: 6px 16px !important;
+}
+
+.DetailsContentItemLabel {
+    font-size: 0.875rem !important;
+    font-weight: 500 !important;
+    padding: 6px 0 !important;
+    width: 10%;
+}
+
+.DetailsContentItemValue {
+    letter-spacing: 0 !important;
+    font-weight: 400 !important;
+    line-height: 1.5em !important;
+    font-size: 0.875rem !important;
+    padding: 6px 0 !important;
+    width: 65%;
+}
+
+.DetailsContentItemColon {
+    letter-spacing: 0 !important;
+    font-weight: 400 !important;
+    line-height: 1.5em !important;
+    font-size: 0.875rem !important;
+    padding: 6px 0 !important;
+    width: 5%;
+}
+
+.EditButton {
+    color: rgb(33, 150, 243) !important;
+}
+
+.EditButton,
+.DeleteButton {
+    font-size: 0.8rem !important;
+    font-weight: 500 !important;
+    line-height: 1.334 !important;
+}
+
+.DetailsBoxAttachment {
+    width: 100% !important;
+    height: 225px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: start !important;
+    align-items: start !important;
+    overflow: hidden !important;
+    padding: 20px !important;
+}
+
+.Attachment {
+    position: relative !important;
+    border-radius: 4px !important;
+    overflow: hidden !important;
+}
+
+.Attachment:hover .AttachmentBackdrop {
+    cursor: pointer !important;
+    opacity: 0.1 !important;
+    transition: all 0.3s !important;
+}
+
+.AttachmentBackdrop {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: #000 !important;
+    transition: all 0.3s !important;
+    z-index: 99 !important;
+    opacity: 0 !important;
+}
+
+@media (max-width: 1650px) {
+    .DetailsContentItemLabel {
+        width: 12%;
+    }
+
+    .DetailsContentItemColon {
+        width: 5%;
+    }
+
+    .DetailsContentItemValue {
+        width: 70%;
+    }
+}
+
+@media (max-width: 1550px) {
+    .DetailsContentItemLabel {
+        width: 15%;
+    }
+
+    .DetailsContentItemColon {
+        width: 8%;
+    }
+
+    .DetailsContentItemValue {
+        width: 65%;
+    }
+}
+
+@media (max-width: 1150px) {
+    .DetailsContentItemLabel {
+        width: 20%;
+    }
+
+    .DetailsContentItemColon {
+        width: 10%;
+    }
+
+    .DetailsContentItemValue {
+        width: 60%;
+    }
+}
+
+@media (max-width: 800px) {
+    .DetailsContentItemLabel {
+        width: 100% !important;
+    }
+
+    .DetailsContentItemValue {
+        width: 100% !important;
+    }
+
+    .DetailsContentItemColon {
+        display: none !important;
+    }
+
+    .DetailsContentItem {
+        flex-direction: column !important;
+        align-items: start !important;
+    }
+
+    .DetailsContentItem {
+        padding: 6px 0 !important;
+    }
+}

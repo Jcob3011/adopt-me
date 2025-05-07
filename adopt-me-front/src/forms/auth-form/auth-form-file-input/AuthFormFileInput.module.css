@@ -1,0 +1,34 @@
+.AuthFormFileInput,
+.AuthFormFileInput input {
+    border-radius: 4px !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0 !important;
+    height: 60px !important;
+    line-height: 18.6875px !important;
+    padding-left: 5px !important;
+    width: 100% !important;
+}
+
+.AuthFormFileInput label {
+    flex: 3 !important;
+}
+
+.AuthFormFileInput span {
+    margin-top: 27px !important;
+    height: 40px !important;
+    width: 100% !important;
+}
+
+.AuthFormFileInput span:hover,
+.AuthFormFileInput {
+    cursor: pointer !important;
+}
+
+.AuthFormFileInputFocused > * {
+    border: none !important;
+}
+
+.AuthFormFileInputFocused {
+    border: 2px solid rgb(33, 150, 243) !important;
+}

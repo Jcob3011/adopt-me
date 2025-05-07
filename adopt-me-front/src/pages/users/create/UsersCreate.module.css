@@ -1,0 +1,73 @@
+.UsersCreatePanel {
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
+    box-shadow: none !important;
+    border-radius: 8px !important;
+    border: none rgba(224, 224, 224, 0.596) !important;
+    padding: 20px !important;
+    opacity: 1 !important;
+    flex: 3;
+}
+
+.UsersCreateBox {
+    box-shadow: none !important;
+    border-radius: 8px !important;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
+    width: 35% !important;
+    padding-bottom: 20px !important;
+    margin-right: 20px;
+}
+
+@media (max-width: 1600px) {
+    .UsersCreateBox {
+        width: 40% !important;
+    }
+}
+
+@media (max-width: 1400px) {
+    .UsersCreateBox {
+        width: 50% !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .UsersCreateBox {
+        width: 60% !important;
+    }
+}
+
+@media (max-width: 1000px) {
+    .UsersCreateBox {
+        width: 80% !important;
+    }
+}
+
+.UsersCreateBox:hover {
+    box-shadow: rgba(32, 40, 45, 0.08) 0 2px 10px 0 !important;
+}
+
+.UsersCreateHeader {
+    padding: 21.5px 15px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    font-size: 0.875rem !important;
+    font-weight: 500 !important;
+    line-height: 1.334 !important;
+}
+
+.UsersCreateContent {
+    padding: 20px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: start !important;
+}
+
+.ButtonsBox {
+    display: flex;
+    flex-direction: row;
+}
+
+.UsersCreateForm {
+    width: 100%;
+}

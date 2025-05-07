@@ -1,0 +1,53 @@
+.MainBox {
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
+    box-shadow: none !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+    margin-bottom: 24px !important;
+    box-sizing: inherit !important;
+    height: 60px !important;
+    display: flex !important;
+    align-items: center !important;
+    padding: 0 20px !important;
+}
+.Grid {
+    box-sizing: border-box !important;
+    display: flex !important;
+    flex-flow: row wrap !important;
+    width: calc(100% + 8px);
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+.TypographyForTitleH3 {
+    margin: 0 !important;
+    font-size: 1.25rem !important;
+    font-family: Roboto, sans-serif !important;
+    line-height: 1.167 !important;
+    font-weight: 500 !important;
+}
+
+.Breadcrumb {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.HomeIcon {
+    align-items: center !important;
+    justify-content: center !important;
+    margin-top: 5px !important;
+    width: 16px !important;
+    height: 16px !important;
+}
+
+.MainTypography {
+    font-size: 0.875rem !important;
+    font-weight: 500 !important;
+    font-family: Roboto, sans-serif !important;
+    line-height: 1.75 !important;
+}
+
+.Link {
+    text-decoration: none;
+    font-weight: bold;
+}

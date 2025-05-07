@@ -1,0 +1,17 @@
+.iconButton {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-family: Roboto, sans-serif;
+    line-height: 1;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 8px !important;
+    width: 34px;
+    height: 34px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    padding-bottom: 10px;
+}

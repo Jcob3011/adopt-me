@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: classpath:db/changelog/login-pass-auth/create-login-pass-auth-table.xml
+  - include:
+      file: classpath:db/changelog/login-pass-auth/create-password-reset-token-table.xml

@@ -1,0 +1,9 @@
+.tableRowCell {
+    height: 50px !important;
+    padding: 16px !important;
+    border-width: 1px !important;
+    font-weight: 400 !important;
+    line-height: 1.5em !important;
+    font-family: Roboto, sans-serif !important;
+    font-size: 0.875rem !important;
+}

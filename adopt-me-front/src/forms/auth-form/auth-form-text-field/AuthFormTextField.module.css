@@ -1,0 +1,39 @@
+.AuthFormTextField,
+.AuthFormTextFieldBorderError {
+    border-radius: 8px !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0 !important;
+    height: 60px !important;
+    box-sizing: border-box !important;
+}
+
+.AuthFormTextFieldFocusLabel {
+    color: #2296f3 !important;
+}
+
+.AuthFormTextFieldBorderError {
+    border: 1px solid #f44c3f !important;
+}
+
+.AuthFormTextFieldError {
+    color: #f44c3f !important;
+}
+
+.AuthFormTextFieldFocus {
+    border: 2px solid #2296f3 !important;
+}
+
+.AuthFormTextFieldErrorFocus {
+    border: 2px solid #f44c3f !important;
+}
+
+.AuthFormTextFieldLabel {
+    font-size: 14px !important;
+    letter-spacing: 0 !important;
+    margin-top: 5px !important;
+}
+
+.AuthFormTextFieldFocus:hover {
+    border: 2px solid #2296f3 !important;
+}

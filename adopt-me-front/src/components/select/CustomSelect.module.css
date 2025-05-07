@@ -1,0 +1,14 @@
+.menuItem:hover {
+    background-color: rgba(0, 255, 255, 0.1) !important;
+}
+
+.formControl {
+    margin: 1px !important;
+    min-width: 120px !important;
+    width: 100%;
+}
+
+.displayValues {
+    display: flex !important;
+    flex-wrap: wrap !important;
+}

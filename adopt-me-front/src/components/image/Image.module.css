@@ -1,0 +1,27 @@
+.imageBox {
+    max-width: 70% !important;
+    max-height: 30% !important;
+}
+
+.outerBox {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+.notFoundBox {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border: 2px solid #282c34 !important;
+    padding: 5px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
+
+.notFoundText {
+    font-size: 14px !important;
+}

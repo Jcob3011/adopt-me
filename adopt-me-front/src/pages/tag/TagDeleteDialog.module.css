@@ -1,0 +1,6 @@
+.DialogTitle {
+    cursor: move !important;
+}
+.DialogContentText {
+    width: 400px !important;
+}

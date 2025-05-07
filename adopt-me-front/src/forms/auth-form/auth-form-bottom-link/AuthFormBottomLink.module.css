@@ -1,0 +1,10 @@
+.AuthFormBottomLink {
+    line-height: 1.75px !important;
+    text-decoration: none !important;
+    font-size: 0.875rem !important;
+    font-weight: 500 !important;
+    color: rgb(18, 25, 38) !important;
+    -webkit-font-smoothing: antialiased !important;
+    letter-spacing: 0.13132px !important;
+    margin-top: 3px !important;
+}

@@ -1,0 +1,43 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <changeSet author="Jakub Jędrzejewski" id="create-health-booklt-table.xml">
+        <createTable tableName="health_booklet">
+            <column name="id" type="varchar(255)">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="sex" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="health" type="boolean">
+                <constraints nullable="false"/>
+            </column>
+            <column name="description" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="animal_id" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="admitted" type="datetime">
+                <constraints nullable="false"/>
+            </column>
+            <column name="created_by_id" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="updated_on" type="datetime">
+                <constraints nullable="true"/>
+            </column>
+            <column name="deleted_on" type="datetime"/>
+            <column name="deleted_by_id" type="varchar(255)"/>
+        </createTable>
+
+        <addForeignKeyConstraint constraintName="fk_health_booklet_animal_id_on_animal"
+                                 baseTableName="health_booklet"
+                                 baseColumnNames="animal_id"
+                                 referencedTableName="animal"
+                                 referencedColumnNames="id"/>
+
+    </changeSet>
+
+</databaseChangeLog>

@@ -1,0 +1,723 @@
+{
+  "snackbar": {
+    "success": {
+      "animalDeleted": "Zwierzę usunięte",
+      "articleDeleted": "Artykuł usunięty",
+      "animalUpdated": "Zaktualizowano",
+      "articleUpdated": "Zaktualizowano"
+    },
+    "error": {
+      "authenticationException": "Nie udane logowanie"
+    }
+
+  },
+  "validation": {
+    "email": {
+      "required": "Wymagany jest email",
+      "invalid": "Emial jest niepoprawny"
+    },
+    "password": {
+      "required": "Hasło jest wymagane"
+    },
+    "confirmPassword": {
+      "required": "Powtórz hasło",
+      "invalid": "Nie poprawne hasło"
+    },
+    "animalDescription": {
+      "required": "Pole jest wymagane"
+    },
+    "articleTitle": {
+      "required": "Podaj Tytuł"
+    },
+    "articleContent": {
+      "required": "Wpisz treść"
+    },
+    "animalAge": {
+      "required": "Wprowadź wiek"
+    },
+    "animalTown": {
+      "required": "Wprowadź miasto"
+    }
+  },
+  "menu": {
+    "changeLanguage": {
+      "polish": "Polski",
+      "english": "Angielski"
+    }
+  },
+  "components": {
+      "table": {
+        "filter": {
+          "filterSideBar": {
+            "filters": "Filtry",
+            "apply": "Filtruj",
+            "reset": "Resetuj",
+            "from": "Od",
+            "to": "Do"
+          }
+        }
+      }
+    },
+  "forms": {
+    "animalForm": {
+      "title": "Dodaj zwierzaka",
+      "fields":{
+        "name": "Imie",
+        "age": "Wiek",
+        "attachment": "Załącznik",
+        "tags": "Tagi",
+        "type": "Typ",
+        "breed": "Rasa",
+        "color": "Kolor",
+        "size": "Wielkość",
+        "hair": "Długość włosia",
+        "town": "Miasto",
+        "contact": "Kontakt"
+      },
+      "updateAnimalButtonLabel" : "Zapisz",
+      "createAnimalButtonLabel": "Zapisz",
+      "clearFormButtonLabel": "Wyczyść",
+      "healthBooklet": "Informacje o zdrowiu"
+    },
+    "articleForm": {
+      "fields": {
+        "title": "Tytuł",
+        "content": "Treść",
+        "type": "Typ"
+      },
+      "updateArticleButtonLabel": "Zapisz",
+      "createArticleButtonLabel": "Stwórz"
+    }
+  },
+  "commons": {
+    "enums": {
+      "animals":{
+        "type": {
+          "dog": "Pies",
+          "cat": "Kot"
+        },
+        "breed": {
+          "york": "York",
+          "maltanczyk": "Maltańczyk"
+        },
+        "color": {
+          "white": "Biały",
+          "brown": "Brązowy",
+          "black": "Czarny"
+        },
+        "size": {
+          "small": "Mały",
+          "medium": "Średni",
+          "large": "Duży"
+
+        },
+        "hair": {
+          "shorty": "Krótkie",
+          "mid": "Średnie",
+          "long": "Długie"
+        }
+      },
+      "article": {
+        "type":{
+          "zdrowie": "Zdrowie"
+        }
+      }
+    }
+  },
+  "pages": {
+    "notification": {
+      "table": {
+        "name": "Lista Błędów",
+        "columns": {
+          "id": "Id",
+          "errorMessage": "Widomość błędu",
+          "occurredOn": "Data zdarzenia"
+        },
+        "filters": {
+          "id": "Id",
+          "errorMessage": "Widomość błędu",
+          "occurredOn": "DATA"
+        }
+      }
+    },
+    "tags": {
+      "id": "Identyfikator tagu",
+      "name": "Nazwa",
+      "createdOn": "Utworzono",
+      "createdById": "Utworzone przez",
+      "updatedOn": "Zaktualizowano",
+      "deletedOn": "Usunięto",
+      "deletedById": "Usunięte przez"
+    },
+    "activityLogs": {
+      "all": {
+        "name": "Dziennik aktywności"
+      },
+      "my": {
+        "name": "Mój dziennik aktywności"
+      },
+      "id": "Identyfikator",
+      "description": "Opis",
+      "createdOn": "Utworzono",
+      "createdById": "Utworzono przez",
+      "type": "Typ"
+    },
+    "activityLogsDetails": {
+      "errorNotExist": "Aktywność nie istnieje",
+      "activityId": "Identyfikator aktywności: ",
+      "description": "Opis: ",
+      "createdOn": "Utworzony: ",
+      "createdById": "Utworzony przez: ",
+      "type": "Typ: ",
+      "activityDetails": "Szczegóły aktywności",
+      "param": {
+        "title": "Parametry: ",
+        "name": "Nazwa: ",
+        "value": "Wartość: "
+      }
+    },
+    "statistic": {
+      "LOGIN_SUCCESS": "Liczba udanych logowań",
+      "LOGIN_FAILED": "Liczba nieudanych logowań",
+      "ADDED_ATTACHMENT": "Liczba dodanych załączników",
+      "REMOVED_ATTACHMENT": "Liczba usuniętych załączników",
+      "ADDED_ANIMAL": "Liczba dodanych zwirząt",
+      "UPDATE_ANIMAL": "Liczba zaktualizowanych zwierząt",
+      "REMOVED_ANIMAL": "Liczba usuniętych zwierząt",
+      "ADDED_ARTICLE": "Liczba dodanych artykułów",
+      "UPDATE_ARTICLE": "Liczba zaktualizowanych artykułów",
+      "REMOVED_ARTICLE": "Liczba usuniętych artykułów",
+      "ADDED_TAG": "Liczba dodanych tagów",
+      "REMOVED_TAG": "Liczba usuniętych tagów",
+      "ADDED_USER": "Liczba dodanych użytkowników",
+      "REMOVED_USER": "Liczba usuniętych użytkowników",
+      "SENT_NOTIFICATION": "Liczba wysłanych powiadomień"
+    },
+    "profile": {
+    },
+    "createArticle": {
+      "title": "Stwórz Artykuł",
+      "clearFormButtonLabel": "Wyczyść"
+    },
+    "article": {
+      "dataTableName": "Lista Artykułów",
+      "title": "Tytuł",
+      "content": "Treść",
+      "type": "Typ"
+    },
+    "updateArticle": {
+      "cancelButtonLabel": "Wyczyść",
+      "title": "Uaktualnij"
+    },
+    "articleDetails": {
+      "updateTitle": "Uaktualnij",
+      "title": "Szczegóły",
+      "attachment": "Załącznik",
+      "content": "Treść",
+      "type": "Typ",
+      "createdOn": "Utworzono",
+      "updatedOn": "Zaktualizowano",
+      "primaryDataTitle": "Podstawowe dane",
+      "metaDataTitle": "Meta dane",
+      "deleteDialog": {
+        "title": "Czy napewno usunąć?",
+        "content": "Potwiedź",
+        "submitButtonLabel": "Potwierdzam",
+        "cancelButtonLabel": "Anuluj"
+
+      }
+    },
+    "ArticleDetails": {
+      "DeleteDialog": {
+        "CancelButtonLabel": "Anuluj",
+        "SubmitButtonLabel": "Anuluj"
+      }
+    },
+    "createAnimal": {
+      "title": "Dodaj zwierzaka",
+      "clearFormButtonLabel": "Wyczyść",
+      "createAnimalButtonLabel": "Stwórz",
+      "wrongHealthButtonLabel": "Nie zdrowy",
+      "fields": {
+        "description": "Opis",
+        "sex": "Płeć"
+      }
+    },
+    "createAnimals": {
+      "correctHealthButtonLabel": "Zdrowy"
+    },
+    "animal": {
+      "dataTableName": "Lista zwierząt",
+      "name": "Imie",
+      "age": "Wiek",
+      "attachment": "Załącznik",
+      "tags": "Tagi",
+      "type": "Typ",
+      "breed": "Rasa",
+      "color": "Kolor",
+      "size": "Wielkość",
+      "hair": "Długość włosia",
+      "town": "Miasto",
+      "contact": "Kontakt"
+    },
+    "animalDetails": {
+      "title": "Szczegóły",
+      "deleteDialog": {
+        "title": "Na pewno chcesz usunąć zwierzę?",
+        "content": "Jeśli je usuniesz, nie będzie ono już dostępne",
+        "submitButtonLabel": "Usuń",
+        "cancelButtonLabel": "Cofnij"
+      },
+      "name": "Imie",
+      "age": "Wiek",
+      "attachment": "Załącznik",
+      "tags": "Tagi",
+      "type": "Typ",
+      "breed": "Rasa",
+      "color": "Kolor",
+      "size": "Wielkość",
+      "hair": "Długość włosia",
+      "town": "Miasto",
+      "contact": "Kontakt",
+
+      "tagsList": "Lista tagów",
+      "createdOn": "Data stworzenia",
+      "updatedOn": "Data modyfikacji",
+      "updateTitle": "Edytuj pytanie",
+      "primaryDataTitle": "Podstawowe dane pytania",
+      "metaDataTitle": "Meta Dane",
+      "answer": "Odpowiedź",
+      "correctAnswer": "Poprawna odpowiedź",
+      "wrongAnswer": "Zła odpowiedź"
+    },
+    "updateAnimal": {
+      "title": "Podstawowe dane zwierzaka",
+      "cancelButtonLabel": "Wyczyść zmiany",
+      "currentAttachment": "Aktualny załącznik"
+    },
+
+    "notFound": {
+    },
+    "home": {
+      "drawer": {
+        "dashboard": "Panel",
+        "statistics": "Statystyki",
+        "logs": "Dziennik aktywności",
+        "animal": "Opcje",
+        "animals": "Zwierzak",
+        "addAnimal": "Dodaj",
+        "animalsList": "Lista",
+        "article": "Artykuł",
+        "addArticle": "Dodaj",
+        "articleList": "Lista",
+        "tags": "Tagi",
+        "addTag": "Dodaj",
+        "tagsList": "Lista",
+        "employeesProfiles": "Profile pracowników",
+        "addEmployee": "Dodaj pracownika",
+        "employeesList": "Lista pracowników",
+        "configuration": "Konfiguracja",
+        "usersConf": "Użytkownicy",
+        "usersCreate": "Dodaj",
+        "usersList": "Lista",
+        "notificationErrors": "Błędy powiadomień",
+        "predefinedConf": "Predefiniowane",
+        "makePredefined": "Stwórz",
+        "predefinedList": "Wszystkie"
+      },
+      "topRightMenu": {
+        "accountSettings": "Ustawienia konta",
+        "profileSettings": "Ustawienia profilu",
+        "logs": "Dziennik aktywności",
+        "language": "Język",
+        "logout": "Wyloguj"
+      }
+    },
+    "userDetails": {
+      "deleteDialog": {
+        "title": "Jesteś pewny, że chcesz usunąć te konto?",
+        "content": "Jeśli to zrobisz, użytkownik nie będzie mógł z niego korzystać",
+        "submitButtonLabel": "Tak",
+        "cancelButtonLabel": "Nie"
+      },
+      "cancelButtonLabel": "Cofnij",
+      "closeUpdateLabel": "Zamknij edycję",
+      "updateLabel": "Edytuj",
+      "deleteLabel": "Usuń",
+      "metaDataLabel": "Meta Dane",
+      "createdOnLabel": "Data stworzenia",
+      "updatedOnLabel": "Data modyfikacji",
+      "roleLabel": "Rola",
+      "statusLabel": "Status",
+      "emailLabel": "E-mail",
+      "lastNameLabel": "Nazwisko",
+      "firstNameLabel": "Imię",
+      "personalDetailsLabel": "Dane Personalne",
+      "detailsBoxTitle": "Konto użytkownika",
+      "detailsBoxUpdateTitle": "Edytowanie konta użytkownika",
+      "accountDetailsMenuLabel": "Dane konta",
+      "changePasswordMenuLabel": "Zmień hasło",
+      "avatarMenuLabel": "Awatar",
+      "avatarSectionTitle": "Zdjęcie użytkownika",
+      "changeUserImageLabel": "Załaduj lub zmień zdjęcie użytkownika",
+      "removeImageButtonLabel": "Usuń zdjęcie",
+      "uploadImageButtonLabel": "Załaduj zdjęcie",
+      "emptyAvatarLabel": "Konto użytkownika nie ma żadnego awatara",
+      "status": {
+        "active": "Aktywny",
+        "inactive": "Nieaktywny"
+      },
+      "role": {
+        "admin": "Administrator",
+        "user": "Użytkownik"
+      }
+    },
+    "updateUser": {
+      "fields": {
+        "firstName": "Imię",
+        "lastName": "Nazwisko",
+        "email": "E-mail",
+        "attachment": "Załącznik",
+        "role": "Rola",
+        "status": "Status",
+        "roleSelect": {
+          "adminRole": "Administrator",
+          "userRole": "Użytkownik"
+        },
+        "statusSelect": {
+          "activeStatus": "Aktwywny",
+          "inactiveStatus": "Nieaktywny"
+        }
+      },
+      "updateButtonLabel": "Edytuj konto",
+      "clearFormLabel": "Wyczyść"
+    },
+    "healthBooklet": {
+      "Id": "Id",
+      "sex": "płeć",
+      "health": "czy zdrowy",
+      "description": "opis",
+      "createdOn": "Utworzono",
+      "createdById": "Utworzone przez",
+      "updatedOn": "Zaktualizowano",
+      "deletedOn": "Usunięto",
+      "deletedById": "Usunięte przez"
+    },
+    "login": {
+      "title": "Cześć, Witaj Ponownie",
+      "subtitle": "Wprowadź swoje poświadczenia, żeby kontynuować",
+      "rememberMeLabel": "Zapamiętaj mnie",
+      "forgotPasswordLink": "Zapomniałeś hasła?",
+      "signInButtonLabel": "Zaloguj się",
+      "signInGmailButtonLabel": "Zaloguj się za pomocą konta google",
+      "registrationLink": "Nie masz jeszcze konta?",
+      "fields": {
+        "email": "Adres E-mail / Nazwa Użytkownika",
+        "password": "Hasło"
+      }
+    },
+    "register": {
+      "title": "Zarejestruj się",
+      "subtitle": "Wprowadź swoje poświadczenia, żeby kontynuować",
+      "subtitle2": "Zarejestruj się za pomocą adresu e-mail",
+      "termsAgreementLabel": "Zgadzam się z",
+      "termsAgreementLabelUnderlined": "regulaminem",
+      "signUpButtonLabel": "Zarejestruj się",
+      "loginLink": "Masz już konto?",
+      "userAccountCreated": "Konto użytkownika zostało pomyślnie utworzone",
+      "fields": {
+        "firstName": "Imię",
+        "lastName": "Nazwisko",
+        "attachment": "Załącznik",
+        "email": "Adres E-mail / Nazwa Użytkownika",
+        "password": "Hasło",
+        "confirmPassword": "Powtórz Hasło"
+      },
+      "passwordStrength": {
+        "poor": "Bardzo słabe",
+        "weak": "Słabe",
+        "normal": "Normalne",
+        "good": "Dobre"
+      }
+    },
+    "createUser": {
+      "title": "Stwórz konto użytkownika",
+      "fields": {
+        "firstName": "Imię",
+        "lastName": "Nazwisko",
+        "email": "E-mail",
+        "password": "Hasło",
+        "confirmPassword": "Potwierdź hasło",
+        "attachment": "Załącznik"
+      },
+      "createUserButtonLabel": "Stwórz uźytkownika",
+      "clearFormButtonLabel": "Wyczyść"
+    },
+    "forgotPassword": {
+      "title": "Zapomniałeś hasła?",
+      "subtitle": "Podaj swój adres e-mail i wyślemy Ci wiadomości do resetowania hasła",
+      "sendMailButtonLabel": "Wyślij wiadomość",
+      "loginLink": "Masz już konto?",
+      "mailSentMessage": "Sprawdź link do resetowania hasła na poczcie",
+      "fields": {
+        "email": "Adres E-mail / Nazwa Użytkownika"
+      }
+    },
+    "tagCreate": {
+      "required": "Nazwa jest wymagana",
+      "error": "Nie udało się utworzyć tagu",
+      "label": "Nazwa",
+      "save": "Zapisz",
+      "addTag": "Dodaj tag",
+      "addedTag": "Tag dodany pomyślnie!",
+      "ok": "OK",
+      "min": "Nazwa musi mieć co najmniej 1 znak",
+      "max": "Nazwa może zawierać maksymalnie 30 znaków"
+    },
+    "tagDetailsPage": {
+      "errorNotExist": "Tag nie istnieje",
+      "errorUpdate": "Błąd podczas aktualizacji tagu",
+      "label": "Nazwa",
+      "save": "Zapisz",
+      "tagId": "Identyfikator tagu: ",
+      "name": "Nazwa: ",
+      "createdOn": "Utworzony: ",
+      "createdById": "Utworzony przez: ",
+      "updatedOn": "Zaktualizowany: ",
+      "back": "Powrót",
+      "tagDetails": "Szczegóły tagu",
+      "closeEdit": "Zamknij edycję",
+      "edit": "Edytuj",
+      "delete": "Usuń",
+      "required": "Nazwa jest wymagana",
+      "min": "Nazwa musi mieć co najmniej 1 znak",
+      "max": "Nazwa może zawierać maksymalnie 30 znaków",
+      "tagDeleteDialog": {
+        "delete": "Usuń",
+        "sure": "Czy na pewno chcesz to zrobić?",
+        "cancel": "Anuluj"
+      }
+    },
+    "TagListPage": {
+      "tagNameTitle": "Nazwa tagu",
+      "profileTitle": "Tagi"
+    },
+    "passwordReset": {
+      "title": "Resetowanie hasła",
+      "subtitle": "Ustaw swoje nowe hasło",
+      "resetPasswordButtonLabel": "Zmien hasło",
+      "loginLink": "Wróć do strony logowania",
+      "fields": {
+        "newPassword": "Nowe hasło",
+        "confirmPassword": "Potwierdź hasło"
+      }
+    },
+    "users": {
+      "table": {
+        "label": "Użytkownicy",
+        "firstName": "Imię",
+        "lastName": "Nazwisko",
+        "email": "E-mail",
+        "role": "Rola",
+        "status": "Status"
+      }
+    },
+    "changeUserPassword": {
+      "title": "Zmiana hasła",
+      "changePasswordButtonLabel": "Znmień hasło",
+      "clearFormButtonLabel": "Wyczyść",
+      "fields": {
+        "password": "Hasło",
+        "confirmPassword": "Potwierdź hasło"
+      }
+    },
+    "gmailSetPassword": {
+      "title": "Hasło użytkownika",
+      "subtitle": "Ustaw hasło do konta gmail",
+      "setPasswordButtonLabel": "Ustaw hasło",
+      "loginLink": "Wróć do strony logowania",
+      "fields": {
+        "password": "Hasło",
+        "confirmPassword": "Potwierdź hasło"
+      }
+    },
+    "gmailAuth": {
+      "dialog": {
+        "title": "To twoja pierwsza próba uwierzytelniania za pomocą konta gmail",
+        "content": "Chcesz ustawić hasło do swojego konta? Jeśli tak, będziesz musiał jest wpisywać za każdym razem",
+        "submitButtonLabel": "Tak",
+        "cancelButtonLabel": "Nie"
+      }
+    },
+  "validation": {
+    "firstName": {
+      "required": "Imię jest wymagane"
+    },
+    "lastName": {
+      "required": "Nazwisko jest wymagane"
+    },
+    "email": {
+      "required": "E-mail jest wymagany",
+      "invalid": "Format adresu nie jest poprawny"
+    },
+    "password": {
+      "required": "Hasło jest wymagane"
+    },
+    "confirmPassword": {
+      "required": "Powtórzenie hasła jest wymagane",
+      "invalid": "Powtórzone hasło nie jest zgodne z poprzednim"
+    },
+    "name": {
+      "required": "Wprowadź swoje imię i nazwisko"
+    },
+    "termsAgreement": {
+      "isTrue": "Musisz zaznaczyć, że zgadzasz się regulaminem"
+    },
+    "animalName": {
+      "required": "Imie jest wymagana"
+    },
+    "animalAge": {
+      "required": "Wiek jest wymagana"
+    },
+    "tags": {
+      "required": "Tagi są wymagane"
+    }
+  },
+  "snackbar": {
+    "error": {
+      "authenticationException": "Podane nieprawidłowe dane uwierzytelniające",
+      "userAccountNotActivatedException": "Konto użytkownika nie jest aktywowane",
+      "userAlreadyExists": "Użytkownik z takimi adresem e-mail już istnieje",
+      "gmailAuthenticationException": "Coś poszło nie tak z uwierzytelnianiem przez gmail, spróbuj ponownie później",
+      "unprivilegedGmailDomainException": "Domena tego konto nie jest uprzywilejowana",
+      "activateAccountTokenAlreadyUsedException": "Konto zostało już aktywowane",
+      "passwordResetTokenExpiredException": "Link do resetowania hasła już wygasł",
+      "passwordResetTokenAlreadyUsedException": "Link do resetowania hasła został już użyty",
+      "passwordResetGmailAuthException": "Nie można zresartować hasła do konta, które jest uwierzytelnione z pomocą Gmail",
+      "gmailLoginPassAuthDisabledException": "Użytkownik nie ma włączonego logowania za pomocą hasła",
+      "gmailLoginPassEnabled": "Twoje konto gmail ma włączone uwierzytelnianie za pomocą hasła",
+      "userNotFoundByEmailException": "Użytkownik z danym adresem email nie istnieje",
+      "defaultMessage": "Coś poszło nie tak, spróbuj ponownie później",
+      "invalidFileExtension": "Wybrano nieprawidłowy typ pliku",
+      "tooBigFileSize": "Wybrany plik jest za duży"
+    },
+    "success": {
+      "accountActivated": "Konto zostało aktywowane",
+      "passwordReset": "Hasło zostało zmienione",
+      "userDeleted": "Użytkownik został usunięty",
+      "userPasswordChanged": "Hasło użytkownika zostało zmienione",
+      "userUpdated": "Konto użytkownika zostało zmodyfikowane",
+      "attachmentRemoved": "Zdjęcie zostało usunięte",
+      "attachmentUploaded": "Zdjęcie zostało dodane",
+      "userAccountCreated": "Konto użytkownika zostało stworzone",
+      "animalCreated": "Zwierzak został stworzony",
+      "animalUpdated": "Zwierzak zostało zmoyfikowane",
+      "animalDeleted": "Zwierzak został usunięty"
+    }
+  },
+  "components": {
+    "customDialog": {
+      "cancel": "Anuluj",
+      "back": "Wróć"
+    },
+    "image": {
+      "notFound": "Nie znaleziono zdjecia."
+    },
+    "dataDisplay": {
+      "metaData": "Metadane",
+      "data": "Dane"
+    },
+    "itemNotExist": "nie istnieje.",
+    "table": {
+      "header": {
+        "details": "Szczegóły"
+      },
+      "filter": {
+        "filterSideBar": {
+          "filters": "Filtry",
+          "apply": "Filtruj",
+          "reset": "Resetuj",
+          "from": "Od",
+          "to": "Do"
+        }
+      }
+    },
+    "editDetailsHeader": {
+      "edit": "Edytuj",
+      "closeEdit": "Anuluj edycję",
+      "delete": "Usuń"
+    },
+    "dialog": {
+      "deleteDialog": {
+        "delete": "Usuń",
+        "cancel": "Anuluj"
+      }
+    }
+  },
+  "types": {
+    "tag": {
+      "single": "Tag",
+      "multiple": "Tagi",
+      "name": "Nazwa",
+      "createdOn": "Data utworzenia",
+      "createdBy": "Utworzone przez",
+      "updatedOn": "Data aktualizacji"
+    }
+  },
+  "commons": {
+    "yes": "Tak",
+    "no": "Nie",
+    "save": "Zapisz",
+    "send": "Wyślij",
+    "delete": "Usuń",
+    "back": "Wróć",
+    "update": "Zaktualizuj",
+    "enums": {
+      "animals": {
+        "breed":{
+          "york": "New Yours"
+        }
+      },
+      "userAccount": {
+        "status": {
+          "active": "Aktywne",
+          "inactive": "Nieaktywne",
+          "deleted": "Usunięte"
+        },
+        "role": {
+          "admin": "Administrator",
+          "user": "Użytkownik"
+        }
+      },
+      "task": {
+        "rateStatus": {
+          "waitingForRate": "Oczekuje na ocenę",
+          "rated": "Ocenione",
+          "notSolved": "Nierozwiązane"
+        },
+        "taskStatus": {
+          "notStarted": "Nierozpoczęte",
+          "inProgress": "W trakcie",
+          "finished": "Zakończone",
+          "timePassed": "Czas upłynął"
+        }
+      },
+      "activityType": {
+        "LOGIN_SUCCESS": "Udało się zalogować",
+        "LOGIN_FAILED": "Błąd logowania",
+        "ADDED_ATTACHMENT": "Dodano załącznik",
+        "REMOVED_ATTACHMENT": "Usunięto załącznik",
+        "ADDED_ANIMAL": "Dodano zwierzaka",
+        "UPDATE_ANIMAL": "Zaktualizowano zwierzaka",
+        "REMOVED_ANIMAL": "Usunięto zwierzaka",
+        "ADDED_TAG": "Dodano Tag",
+        "REMOVED_TAG": "Usunięto Tag",
+        "ADDED_USER": "Dodano użytkownika",
+        "REMOVED_USER": "Usunięto użytkownika",
+        "SENT_NOTIFICATION": "Wysłano powiadomienie"
+
+      }
+      }
+    }
+  }
+}

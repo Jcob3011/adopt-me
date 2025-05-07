@@ -1,0 +1,144 @@
+.MainList {
+    width: 100%;
+    max-width: 500px !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    margin-right: 30px !important;
+    margin-left: 0 !important;
+    overflow-x: hidden;
+    overflow-y: inherit;
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+}
+
+.MainList::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 4px;
+}
+
+.MainList::-webkit-scrollbar-track {
+    background: inherit;
+    border-radius: 4px;
+}
+
+.MainList::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.MainList::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.MainListSubheader {
+    margin: 10px 0px 0.35em !important;
+    line-height: 1.66 !important;
+    font-size: 0.875rem !important;
+    font-weight: 500 !important;
+    padding: 6px !important;
+    text-transform: capitalize !important;
+}
+
+.MainListItemButton,
+.MainListItemButtonClosed {
+    outline: 0 !important;
+    border: 0 none !important;
+    margin: 4px 0 4px 0 !important;
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: row !important;
+    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
+    z-index: 1201 !important;
+    border-radius: 8px !important;
+    min-width: 0 !important;
+}
+
+.MainListItemButtonClosed {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.MainListItemButton:hover {
+    border-radius: 8px !important;
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.MainListItemButton.Mui-selected {
+    border-radius: 8px !important;
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.MainListItemIcon {
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.SubListItemButton {
+    padding-left: 40px !important;
+    text-align: left !important;
+    outline: 0 !important;
+    border: 0 none !important;
+    margin: 0 !important;
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: start !important;
+    border-radius: 8px !important;
+}
+
+.SubListItemButton:hover {
+    border-radius: 8px !important;
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.SubListItemButton.Mui-selected {
+    border-radius: 8px !important;
+    min-width: 0;
+}
+
+.DrawerItemLabel,
+.DrawerItemSubLabel {
+    font-size: 0.875rem !important;
+    font-weight: 400 !important;
+    line-height: 1.334em !important;
+    font-family: Roboto, sans-serif !important;
+}
+
+.DrawerItemSubLabel {
+    margin-left: -30px !important;
+}
+
+.DrawerItemSubLabel {
+    min-width: 25px !important;
+}
+
+.DrawerItemLabelClosed {
+    display: none !important;
+}
+
+.ItemListIconBoxClosed {
+    display: none !important;
+}
+
+.DrawerDivider {
+    margin: 10px 0px 10px !important;
+    border-width: 0px 0px thin !important;
+    border-style: solid !important;
+}
+
+.ItemListIconBox {
+    padding-right: 10px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}

@@ -1,0 +1,29 @@
+.SuccessSnackbar,
+.ErrorSnackbar {
+    border-radius: 8px !important;
+    color: #fff !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.SuccessSnackbar {
+    background-color: #00e676 !important;
+}
+
+.ErrorSnackbar {
+    background-color: #ff6b6b !important;
+}
+
+.SuccessSnackbar > *,
+.ErrorSnackbar > * {
+    font-family: Roboto, sans-serif !important;
+    font-weight: 500 !important;
+}
+
+.SuccessSnackbar > * {
+    color: rgb(54, 65, 82) !important;
+}
+
+.ErrorSnackbar > * {
+    color: #f8f8f8 !important;
+}

@@ -1,0 +1,10 @@
+.box {
+    display: flex !important;
+    justify-content: left !important;
+    align-items: center !important;
+}
+
+.typography {
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+}

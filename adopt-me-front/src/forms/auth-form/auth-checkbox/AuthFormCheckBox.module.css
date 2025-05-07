@@ -1,0 +1,58 @@
+.AuthCheckBox {
+    color: rgb(105, 117, 134) !important;
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+    fill: currentcolor !important;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
+}
+
+.AuthCheckedCheckBox {
+    color: rgb(33, 150, 243) !important;
+}
+
+.AuthFormCheckBoxStack {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.AuthFormCheckBoxLabel {
+    font-size: 0.875rem !important;
+    font-weight: 400 !important;
+    line-height: 1.334em !important;
+    color: rgb(54, 65, 82) !important;
+}
+
+.AuthFormCheckBoxLabelUnderlined {
+    font-size: 0.875rem !important;
+    font-weight: 500 !important;
+    text-decoration: underline !important;
+    color: rgb(18, 25, 38) !important;
+    margin-top: 0 !important;
+}
+
+.TermsAgreementCheckBoxStack {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.TermsAgreementCheckBoxLabel {
+    font-size: 0.875rem !important;
+    font-weight: 500 !important;
+    line-height: 1.334em !important;
+    color: rgb(18, 25, 38) !important;
+    margin: 0 !important;
+}
+
+@media (max-width: 350px) {
+    .TermsAgreementCheckBoxStack {
+        flex-direction: column !important;
+        align-items: start !important;
+    }
+
+    .AuthFormCheckBoxLabelUnderlined {
+        margin: 0 !important;
+    }
+}

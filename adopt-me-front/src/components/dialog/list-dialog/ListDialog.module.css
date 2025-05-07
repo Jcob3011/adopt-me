@@ -1,0 +1,49 @@
+.ListDialog {
+    box-shadow: rgba(0, 0, 0, 0.2) 0 11px 15px -7px,
+    rgba(0, 0, 0, 0.14) 0 24px 38px 3px,
+    rgba(0, 0, 0, 0.12) 0 9px 46px 8px !important;
+    border-radius: 4px !important;
+    padding: 12px 0 !important;
+    width: 300px !important;
+}
+
+.ListDialogItem {
+    font-size: 0.875rem !important;
+    font-weight: 400 !important;
+    line-height: 1.334em !important;
+    text-align: center !important;
+}
+
+.ListDialogTitle {
+    font-weight: 500 !important;
+    line-height: 1.6 !important;
+    padding: 16px 24px !important;
+    flex: 0 0 auto !important;
+    font-size: 1.25rem !important;
+}
+
+.ListDialogContent {
+    letter-spacing: 0 !important;
+    font-weight: 400 !important;
+    line-height: 1.5em !important;
+    font-size: 0.875rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: start !important;
+    gap: 8px !important;
+}
+
+.ListDialogCancelButton {
+    text-transform: capitalize !important;
+    font-size: 0.8125rem !important;
+    line-height: 1.75 !important;
+    min-width: 64px !important;
+    padding: 4px 10px !important;
+}
+
+.ListDialogDivider {
+    width: 100% !important;
+    height: 1px !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}

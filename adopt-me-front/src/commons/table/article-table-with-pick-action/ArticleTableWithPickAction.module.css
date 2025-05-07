@@ -1,0 +1,12 @@
+§.tagsBox {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+}
+
+.tagBox {
+    padding-right: 2px !important;
+    padding-left: 2px !important;
+}

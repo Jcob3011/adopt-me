@@ -1,0 +1,83 @@
+.UserAttachmentBox {
+    box-shadow: none !important;
+    border-radius: 8px !important;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
+    width: 35% !important;
+    padding-bottom: 20px !important;
+    margin-right: 20px;
+}
+
+@media (max-width: 1600px) {
+    .UserAttachmentBox {
+        width: 40% !important;
+    }
+}
+
+@media (max-width: 1400px) {
+    .UserAttachmentBox {
+        width: 50% !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .UserAttachmentBox {
+        width: 60% !important;
+    }
+}
+
+@media (max-width: 1000px) {
+    .UserAttachmentBox {
+        width: 80% !important;
+    }
+}
+
+.UserAttachmentBox:hover {
+    box-shadow: rgba(32, 40, 45, 0.08) 0 2px 10px 0 !important;
+}
+
+.UserAttachmentHeader {
+    padding: 21.5px 15px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    font-size: 0.875rem !important;
+    font-weight: 500 !important;
+    line-height: 1.334 !important;
+}
+
+.UserAttachmentContent {
+    padding: 20px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: start !important;
+}
+
+.UserImage {
+    width: 150px !important;
+    height: 150px !important;
+    border-radius: 8px !important;
+    object-fit: cover !important;
+    box-shadow: rgba(32, 40, 45, 0.08) 0 2px 10px 0 !important;
+    overflow: hidden !important;
+}
+
+.ChangeUserImageLabel {
+    font-size: 0.75rem !important;
+    font-weight: 400 !important;
+    line-height: 1.57 !important;
+    text-align: center !important;
+}
+
+.ButtonsBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.AttachmentNotFoundLabel {
+    letter-spacing: 0 !important;
+    font-weight: 400 !important;
+    line-height: 1.5em !important;
+    font-size: 0.875rem !important;
+}

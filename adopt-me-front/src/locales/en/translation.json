@@ -1,0 +1,741 @@
+{
+  "validation": {
+    "email": {
+      "required": "Email is required",
+      "invalid": "Emial is invalid"
+    },
+    "password": {
+      "required": "Password is required"
+    },
+    "confirmPassword": {
+      "required": "Type password again",
+      "invalid": "Password is invalid"
+    }
+  },
+  "menu": {
+    "changeLanguage": {
+      "polish": "Polish",
+      "english": "English"
+    }
+  },
+  "components": {
+    "table": {
+      "filter": {
+        "filterSideBar": {
+          "filters": "Filters",
+          "apply": "Apply",
+          "reset": "Reset",
+          "from": "From",
+          "to": "To"
+        }
+      }
+    }
+  },
+  "forms": {
+    "animalForm": {
+      "title": "Add animal",
+      "fields":{
+        "name": "Name",
+        "age": "Age",
+        "attachment": "Attachment",
+        "tags": "Tags",
+        "type": "Type",
+        "breed": "Breed",
+        "color": "Color",
+        "size": "Size",
+        "hair": "Hair",
+        "town": "Town",
+        "contact": "Contact"
+      },
+      "updateAnimalButtonLabel": "Save",
+      "createAnimalButtonLabel": "Save",
+      "clearFormButtonLabel": "Clear",
+      "healthBooklet": "Information about health"
+    },
+    "articleForm": {
+      "fields": {
+        "title": "Title",
+        "content": "Content",
+        "type": "Typy"
+      },
+      "createArticleButtonLabel": "Create",
+      "updateArticleButtonLabel": "Save Changes"
+    }
+  },
+  "commons": {
+    "enums": {
+      "userAccount": {
+        "role": {
+          "admin": "Admin",
+          "user": "User"
+        },
+        "status": {
+          "active": "Active",
+          "inactive": "In Active"
+        }
+      },
+      "animals":{
+        "type": {
+          "dog": "Dog",
+          "cat": "Cat"
+        },
+        "breed": {
+          "york": "York",
+          "maltanczyk": "Maltańczk"
+        },
+        "color": {
+          "white": "White",
+          "brown": "Brown",
+          "black": "Black"
+        },
+        "size": {
+          "small": "Small",
+          "medium": "Medium",
+          "large": "Large"
+
+        },
+        "hair": {
+          "shorty": "Shorty",
+          "mid": "Mid",
+          "long": "Long"
+        }
+      },
+      "article": {
+        "type":{
+          "zdrowie": "Health"
+        }
+      }
+    }
+  },
+  "pages": {
+    "notification": {
+      "table": {
+        "name": "List of Errors",
+        "columns": {
+          "id": "Id",
+          "errorMessage": "Error Message",
+          "occurredOn": "Date"
+        },
+        "filters": {
+          "id": "Id",
+          "errorMessage": "Error Message",
+          "occurredOn": "Date"
+        }
+      }
+    },
+    "tags": {
+      "id": "Id",
+      "name": "Tag name",
+      "createdOn": "Created on",
+      "createdById": "Created by",
+      "updatedOn": "Updated on",
+      "deletedOn": "Deleted on",
+      "deletedById": "Deleted by"
+    },
+    "activityLogs": {
+      "all": {
+        "name": "Activity logs"
+      },
+      "my": {
+        "name": "My Activity logs"
+      },
+      "id": "Id",
+      "description": "Description",
+      "createdOn": "Created On",
+      "createdById": "Created by",
+      "type": "Type"
+    },
+    "activityLogsDetails": {
+      "errorNotExist": "Activity does not exist",
+      "activityId": "Activity id: ",
+      "description": "Description: ",
+      "createdOn": "Created on: ",
+      "createdById": "Created by: ",
+      "type": "Type: ",
+      "activityDetails": "Activity details",
+      "param": {
+        "title": "Parameters: ",
+        "name": "Name: ",
+        "value": "Value: "
+      }
+    },
+    "statistic": {
+      "LOGIN_SUCCESS": "Number of successful logins",
+      "LOGIN_FAILED": "Number of failed logins",
+      "ADDED_ATTACHMENT": "Number of attachments added",
+      "REMOVED_ATTACHMENT": "Number of removed attachments",
+      "ADDED_ANIMAL": "Number of animal added",
+      "UPDATE_ANIMAL": "Number of updated animals",
+      "REMOVED_ANIMAL": "Number of animals removed",
+      "ADDED_TAG": "Number of tags added",
+      "REMOVED_TAG": "Number of tags removed",
+      "ADDED_USER": "Number of users added",
+      "REMOVED_USER": "Number of users removed",
+      "SENT_NOTIFICATION": "Number of notifications sent"
+    },
+    "profile": {
+    },
+    "createAnimal": {
+      "title": "Create Animal",
+      "clearFormButtonLabel": "Clear",
+      "createAnimalButtonLabel": "Stwórz",
+      "wrongHealthButtonLabel": "UnHealth",
+      "fields": {
+        "description": "Description",
+        "sex": "Sex"
+      }
+    },
+    "createAnimals": {
+      "correctHealthButtonLabel": "Health"
+    },
+    "createArticle": {
+      "title": "Create Article",
+      "clearFormButtonLabel": "Clear"
+    },
+    "article": {
+      "dataTableName": "List of Article",
+      "title": "Title",
+      "content": "Content",
+      "type": "Type",
+      "createAnimal": {
+        "title": "Add Animal",
+        "clearFormButtonLabel": "Clear"
+      }
+    },
+    "updateArticle": {
+      "title": "Update Article",
+      "cancelButtonLabel": "Cancel Changes"
+    },
+    "articleDetails": {
+      "title": "Article Title",
+      "primaryDataTitle": "Details Article",
+      "content": "Content",
+      "type": "Type",
+      "metaDataTitle": "MetaData",
+      "createdOn": "Created",
+      "updatedOn": "Update",
+      "updateTitle": "Edit Article"
+
+    },
+    "animal": {
+      "dataTableName": "Animals list",
+      "name": "Name",
+      "age": "Age",
+      "attachment": "Attachment",
+      "tags": "Tags",
+      "type": "Type",
+      "breed": "Breed",
+      "color": "Color",
+      "size": "Size",
+      "hair": "Hair",
+      "town": "Town",
+      "contact": "Contact"
+    },
+    "animalDetails": {
+      "title": "Animal",
+      "deleteDialog": {
+        "title": "Are you sure to delete this animal?",
+        "content": "If you delete it, then it won't available anymore",
+        "submitButtonLabel": "Delete",
+        "cancelButtonLabel": "Cancel"
+      },
+      "name": "Name",
+      "age": "Age",
+      "attachment": "Attachment",
+      "tags": "Tags",
+      "type": "Type",
+      "breed": "Breed",
+      "color": "Color",
+      "size": "Size",
+      "hair": "Hair",
+      "town": "Town",
+      "contact": "Contact",
+      "tagsList": "List of tags",
+      "createdOn": "Created on",
+      "updatedOn": "Updated on",
+      "updateTitle": "Update animal",
+      "primaryDataTitle": "Animal primary data",
+      "metaDataTitle": "Meta data"
+    },
+    "updateAnimal": {
+      "title": "Animal primary data",
+      "cancelButtonLabel": "Clear changes",
+      "currentAttachment": "Current attachment"
+    },
+    "notFound": {
+    },
+    "home": {
+      "drawer": {
+        "dashboard": "Dashboard",
+        "statistics": "Statistics",
+        "logs": "Activity logs",
+        "animal": "Option",
+        "animals": "Animals",
+        "addAnimal": "Create",
+        "animalsList": "List",
+        "article": "Article",
+        "addArticle": "Add Article",
+        "articleList": "List of Article",
+        "tags": "Tags",
+        "addTag": "Create",
+        "tagsList": "List",
+        "employeesProfiles": "Employees profiles",
+        "addEmployee": "Add employee",
+        "employeesList": "Employee list",
+        "configuration": "Configuration",
+        "usersConf": "Users",
+        "usersCreate": "Create",
+        "usersList": "List",
+        "notificationErrors": "Notification errors",
+        "predefinedConf": "Predefined",
+        "makePredefined": "Create",
+        "predefinedList": "List"
+      },
+      "topRightMenu": {
+        "accountSettings": "Account settings",
+        "profileSettings": "Profile settings",
+        "logs": "Activity logs",
+        "language": "Language",
+        "logout": "Log out"
+      }
+    },
+    "userDetails": {
+      "deleteDialog": {
+        "title": "Are you sure to delete this account?",
+        "content": "If you do it, user won't be able to use this account anymore",
+        "submitButtonLabel": "Yes",
+        "cancelButtonLabel": "No"
+      },
+      "cancelButtonLabel": "Cancel",
+      "closeUpdateLabel": "Close editing",
+      "updateLabel": "Edit",
+      "deleteLabel": "Delete",
+      "metaDataLabel": "Meta Data",
+      "createdOnLabel": "Created on",
+      "updatedOnLabel": "Updated on",
+      "roleLabel": "Role",
+      "statusLabel": "Status",
+      "emailLabel": "E-mail",
+      "lastNameLabel": "Last Name",
+      "firstNameLabel": "First name",
+      "personalDetailsLabel": "Personal Details",
+      "detailsBoxTitle": "User Account",
+      "detailsBoxUpdateTitle": "Update User Account",
+      "accountDetailsMenuLabel": "Account Details",
+      "avatarMenuLabel": "Avatar",
+      "changePasswordMenuLabel": "Change Password",
+      "avatarSectionTitle": "User image",
+      "changeUserImageLabel": "Upload or change user image",
+      "removeImageButtonLabel": "Remove image",
+      "uploadImageButtonLabel": "Upload image",
+      "emptyAvatarLabel": "User account doesn't have any avatar",
+      "status": {
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "role": {
+        "admin": "Admin",
+        "user": "User"
+      }
+    },
+    "updateUser": {
+      "fields": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "E-mail",
+        "attachment": "Attachment",
+        "role": "Role",
+        "status": "Status",
+        "roleSelect": {
+          "adminRole": "Admin",
+          "userRole": "User"
+        },
+        "statusSelect": {
+          "activeStatus": "Active",
+          "inactiveStatus": "Inactive"
+        }
+      },
+      "updateButtonLabel": "Update Account",
+      "clearFormLabel": "Clear"
+    },
+
+    "healthBooklet": {
+      "Id": "Id",
+      "sex": "Aniaml sex",
+      "health": "Animal health",
+      "description": "Animal description",
+      "createdOn": "Created on",
+      "createdById": "Created by",
+      "updatedOn": "Updated on",
+      "deletedOn": "Deleted on",
+      "deletedById": "Deleted by"
+    },
+    "login": {
+      "title": "Hi, Welcome Back",
+      "subtitle": "Enter your credentials to continue",
+      "rememberMeLabel": "Keep me logged in",
+      "forgotPasswordLink": "Forgot Password?",
+      "signInButtonLabel": "Sign In",
+      "signInGmailButtonLabel": "Sign in with google",
+      "registrationLink": "Don't have an account?",
+      "fields": {
+        "email": "E-mail Address / Username",
+        "password": "Password"
+      }
+    },
+    "register": {
+      "title": "Sign up",
+      "subtitle": "Enter your credentials to continue",
+      "subtitle2": "Sign up with Email address",
+      "termsAgreementLabel": "Agree with",
+      "termsAgreementLabelUnderlined": "Terms & Condition",
+      "signUpButtonLabel": "Sign Up",
+      "loginLink": "Already have an account?",
+      "userAccountCreated": "User has been successfully created",
+      "fields": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "attachment": "Attachment",
+        "email": "E-mail Address / Username",
+        "password": "Password",
+        "confirmPassword": "Confirm Password"
+      },
+      "passwordStrength": {
+        "poor": "poor",
+        "weak": "weak",
+        "normal": "normal",
+        "good": "good"
+      }
+    },
+    "createUser": {
+      "title": "Create user account",
+      "fields": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "E-mail",
+        "password": "Password",
+        "confirmPassword": "Confirm Password",
+        "attachment": "Attachment"
+      },
+      "createUserButtonLabel": "Create user",
+      "clearFormButtonLabel": "Clear"
+    },
+    "forgotPassword": {
+      "title": "Forgot password?",
+      "subtitle": "Enter your email address below and we'll send you password reset OTP",
+      "sendMailButtonLabel": "Send Mail",
+      "loginLink": "Already have an account?",
+      "mailSentMessage": "Check mail for reset password link",
+      "fields": {
+        "email": "E-mail Address / Username"
+      }
+    },
+    "tagCreate": {
+      "required": "Name is required",
+      "error": "Tag not created",
+      "label": "Name",
+      "save": "Save",
+      "addTag": "Add tag",
+      "addedTag": "Tag added successfully!",
+      "ok": "OK",
+      "min": "Name must have at least 1 character",
+      "max": "Name can have maximum 30 characters"
+    },
+    "tagDetailsPage": {
+      "errorNotExist": "Tag does not exist",
+      "errorUpdate": "Error Updating Tag",
+      "label": "Name",
+      "save": "Save",
+      "tagId": "Tag id: ",
+      "name": "Name: ",
+      "createdOn": "Created on: ",
+      "createdById": "Created by: ",
+      "updatedOn": "Updated on: ",
+      "back": "Back",
+      "tagDetails": "Tag details",
+      "closeEdit": "Close Edit",
+      "edit": "Edit",
+      "delete": "Delete",
+      "required": "Name is required",
+      "min": "Name must have at least 1 character",
+      "max": "Name can have maximum 30 characters",
+      "tagDeleteDialog": {
+        "delete": "Delete",
+        "sure": "Are you sure?",
+        "cancel": "Cancel"
+      }
+    },
+    "TagListPage": {
+      "tagNameTitle": "Tag name",
+      "profileTitle": "Tags"
+    },
+    "passwordReset": {
+      "title": "Password reset",
+      "subtitle": "Set your new account password",
+      "resetPasswordButtonLabel": "Change password",
+      "loginLink": "Back to the login page",
+      "fields": {
+        "newPassword": "New password",
+        "confirmPassword": "Confirm Password"
+      }
+    },
+    "users": {
+      "table": {
+        "label": "Users",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "E-mail",
+        "role": "Role",
+        "status": "Status"
+      }
+    },
+    "changeUserPassword": {
+      "title": "Change password",
+      "changePasswordButtonLabel": "Change password",
+      "clearFormButtonLabel": "Clear",
+      "fields": {
+        "password": "Password",
+        "confirmPassword": "Confirm Password"
+      }
+    },
+    "gmailSetPassword": {
+      "title": "User password",
+      "subtitle": "Set your new gmail account password",
+      "setPasswordButtonLabel": "Set password",
+      "loginLink": "Back to the login page",
+      "fields": {
+        "password": "Password",
+        "confirmPassword": "Confirm Password"
+      }
+    },
+    "gmailAuth": {
+      "dialog": {
+        "title": "You're authenticating with gmail for the first time",
+        "content": "Do you want to set password to your account? Then you'll have to provide this password every time",
+        "submitButtonLabel": "Yes",
+        "cancelButtonLabel": "No"
+      }
+    },
+  "forms": {
+    "animalForm": {
+      "createAnimalButtonLabel": "Create animal",
+      "updateAnimalButtonLabel": "Update animal",
+      "fields": {
+      }
+    }
+  },
+  "validation": {
+    "firstName": {
+      "required": "First name is required"
+    },
+    "lastName": {
+      "required": "Last name is required"
+    },
+    "email": {
+      "required": "E-mail is required",
+      "invalid": "E-mail's format is not valid"
+    },
+    "password": {
+      "required": "Password is required"
+    },
+    "confirmPassword": {
+      "required": "Confirm password is required",
+      "invalid": "Doesn't match with the previous one"
+    },
+    "name": {
+      "required": "Enter your name"
+    },
+    "termsAgreement": {
+      "isTrue": "You have to agree with terms agreement policy"
+    },
+    "questionName": {
+      "required": "Name is required"
+    },
+    "questionContent": {
+      "required": "Content is required"
+    },
+    "answerContent": {
+      "required": "Content is required"
+    },
+    "tags": {
+      "required": "Tags are required"
+    }
+  },
+  "snackbar": {
+    "error": {
+      "authenticationException": "Provided credentials are not valid",
+      "userAccountNotActivatedException": "User account is not activated",
+      "userAlreadyExists": "User with given e-mail already exists",
+      "gmailAuthenticationException": "Something went wrong with gmail authentication, try it again later",
+      "unprivilegedGmailDomainException": "This email domain is not privileged",
+      "activateAccountTokenAlreadyUsedException": "The user account has been already activated",
+      "passwordResetTokenExpiredException": "Link to reset password has already expired",
+      "passwordResetTokenAlreadyUsedException": "Link to reset password has been already used",
+      "passwordResetGmailAuthException": "Cannot reset the password for an account that's authenticated by Gmail",
+      "gmailLoginPassAuthDisabledException": "User doesn't have set up authentication with password",
+      "gmailLoginPassEnabled": "Your gmail account has enabled password authentication",
+      "userNotFoundByEmailException": "User with given email doesn't exist",
+      "defaultMessage": "Something went wrong, try it again later",
+      "tooManyQuestionsInQuiz": "You can drawn up to 50 questions at once.",
+      "notEnoughQuestionCorrectAnswers": "This type of question requires at least one correct answer",
+      "invalidFileExtension": "Chosen file type is not valid",
+      "tooBigFileSize": "Chosen file is too big",
+      "tagAlreadyExistsException": "Tag already exists"
+    },
+    "success": {
+      "accountActivated": "Account has been activated",
+      "passwordReset": "Password has been changed",
+      "userDeleted": "User has been deleted",
+      "userPasswordChanged": "User's password has been changed",
+      "userUpdated": "User account has been updated",
+      "attachmentRemoved": "Attachment has been removed",
+      "attachmentUploaded": "Attachment has been uploaded",
+      "userAccountCreated": "User account has been created",
+      "questionCreated": "Question has been created",
+      "questionUpdated": "Question has been updated",
+      "questionDeleted": "Question has been deleted"
+    }
+  },
+  "components": {
+    "customDialog": {
+      "cancel": "Cancel",
+      "back": "Back"
+    },
+    "image": {
+      "notFound": "Image not found."
+    },
+    "dataDisplay": {
+      "metaData": "Metadata",
+      "data": "Data"
+    },
+    "itemNotExist": "not exists.",
+    "table": {
+      "header": {
+        "details": "Details"
+      },
+      "filter": {
+        "filterSideBar": {
+          "filters": "Filters",
+          "apply": "Apply filters",
+          "reset": "Reset",
+          "from": "From",
+          "to": "To"
+        }
+      }
+    },
+    "editDetailsHeader": {
+      "edit": "Edit",
+      "closeEdit": "Close edit",
+      "delete": "Delete"
+    },
+    "dialog": {
+      "deleteDialog": {
+        "delete": "Usuń",
+        "cancel": "Anuluj"
+      }
+    }
+  },
+  "types": {
+    "tag": {
+      "single": "Tag",
+      "multiple": "Tags",
+      "name": "Name",
+      "createdOn": "Created on",
+      "createdBy": "Created by",
+      "updatedOn": "Updated on"
+    },
+    "question": {
+      "name": "Animal name",
+      "cage": "Age content",
+      "attachmentId": "Attachment",
+      "tags": "Question tag",
+      "type": "Animal type",
+      "breed": "Animal breed",
+      "color": "Animal color",
+      "size": "Animal size",
+      "hair": "Animal hair",
+      "deletedOn": "Deleted on",
+      "deletedById": "Deleted by",
+      "createdOn": "Created on",
+      "createdBy": "Created by",
+      "updatedOn": "Updated on",
+      "healthBooklet": {
+        "sex": "Aniaml sex",
+        "health": "Animal health",
+        "description": "Animal description",
+        "createdOn": "Created on",
+        "createdBy": "Created by",
+        "updatedOn": "Updated on"
+      }
+    }
+  },
+  "commons": {
+    "yes": "Yes",
+    "no": "No",
+    "save": "Save",
+    "send": "Send",
+    "delete": "Delete",
+    "back": "Back",
+    "enums": {
+      "userAccount": {
+        "status": {
+          "active": "Active",
+          "inactive": "Inactive",
+          "deleted": "Deleted"
+        },
+        "role": {
+          "admin": "Admin",
+          "user": "User"
+        }
+      },
+      "task": {
+        "rateStatus": {
+          "waitingForRate": "Waiting for rate",
+          "rated": "Rated",
+          "notSolved": "Not solved"
+        },
+        "taskStatus": {
+          "notStarted": "Not started",
+          "inProgress": "In progress",
+          "finished": "Finished",
+          "timePassed": "Time passed"
+        }
+      },
+      "activityType": {
+        "LOGIN_SUCCESS": "Login Success",
+        "LOGIN_FAILED": "Login Failed",
+        "ADDED_ATTACHMENT": "Added Attachment",
+        "REMOVED_ATTACHMENT": "Removed Attachment",
+        "ADDED_ANIMAL": "Added Animal",
+        "UPDATE_ANIMAL": "Update Animal",
+        "REMOVED_ANIMAL": "Removed Animal",
+        "ADDED_TAG": "Added Tag",
+        "REMOVED_TAG": "Removed Tag",
+        "ADDED_USER": "Added User",
+        "REMOVED_USER": "Removed User",
+        "SENT_NOTIFICATION": "Sent Notification"
+      },
+      "quiz": {
+        "rateStatus": {
+          "waitingForRate": "Waiting for rate",
+          "rated": "Rated",
+          "notSolved": "Not solved"
+        }
+      },
+      "questions": {
+        "difficulty": {
+          "veryEasy": "Very easy",
+          "easy": "Easy",
+          "medium": "Medium",
+          "hard": "Hard",
+          "veryHard": "Very hard"
+        },
+        "type": {
+          "single": "Single choice",
+          "multiple": "Multiple choice",
+          "text": "Text"
+        }
+      }
+    }
+  }
+}}

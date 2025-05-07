@@ -1,0 +1,9 @@
+.SelectCheckboxError {
+    font-weight: 400 !important;
+    font-size: 0.75rem !important;
+    line-height: 1.66 !important;
+    letter-spacing: 0.03333em !important;
+    color: #f44c3f !important;
+    margin-left: 14px !important;
+    margin-top: 3px !important;
+}

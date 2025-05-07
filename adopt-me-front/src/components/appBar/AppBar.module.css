@@ -1,0 +1,84 @@
+.CustomToolbar {
+    box-shadow: none;
+    background-image: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-sizing: border-box !important;
+    flex-shrink: 0;
+    position: fixed;
+    z-index: 1100;
+    top: 0;
+    left: auto;
+    background-color: rgb(255, 255, 255);
+    transition: none 0s ease 0s;
+    color: rgb(255, 255, 255);
+}
+
+.BoxForTypographies {
+    width: 250px;
+    display: flex;
+    box-sizing: inherit;
+    box-shadow: none;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.BoxForLogoAndTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.LogoTypography {
+    position: static;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: -7px !important;
+}
+
+.scaledLogoImage {
+    width: 20px;
+    height: 20px;
+    box-sizing: inherit;
+}
+
+.TitleTypography {
+    position: static;
+    padding-left: 0;
+    margin-right: 2px;
+    margin-left: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    display: block;
+    flex-grow: 1;
+    box-sizing: inherit;
+    padding-bottom: 4px;
+}
+
+.OpenDrawerIconButton {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    line-height: 1 !important;
+    border-radius: 8px !important;
+    width: 34px;
+    height: 34px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out 0s;
+    padding-bottom: 10px;
+}
+
+.BoxForToolbarSpacing {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.AppBar {
+    background-color: white !important;
+}

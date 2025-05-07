@@ -1,0 +1,11 @@
+.formControl {
+    margin: 1px !important;
+    min-width: 120px !important;
+    width: 100%;
+}
+
+.box {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}

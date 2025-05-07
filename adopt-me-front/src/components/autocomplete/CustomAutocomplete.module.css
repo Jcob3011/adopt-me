@@ -1,0 +1,12 @@
+.autoComplete {
+    max-width: 300px !important;
+}
+
+.checkBoxContainer,
+.checkBoxContainer:hover {
+    padding: 8px !important;
+}
+
+.checkBoxContainer:hover {
+    background-color: rgba(0, 255, 255, 0.1) !important;
+}

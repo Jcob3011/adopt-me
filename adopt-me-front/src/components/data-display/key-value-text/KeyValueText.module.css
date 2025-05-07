@@ -1,0 +1,16 @@
+.keyText {
+    font-weight: 600 !important;
+    font-size: 0.9rem !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+.value {
+    font-size: 0.9rem !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+.box {
+    display: flex !important;
+}

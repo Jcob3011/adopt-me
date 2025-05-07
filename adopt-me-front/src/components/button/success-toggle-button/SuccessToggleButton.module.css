@@ -1,0 +1,27 @@
+.SuccessToggleButton,
+.ErrorToggleButton {
+    font-size: 0.875rem !important;
+    font-weight: 500 !important;
+    line-height: 1.334 !important;
+    text-transform: none !important;
+    padding: 5px 15px !important;
+    border-radius: 4px !important;
+}
+
+@media (max-width: 400px) {
+    .SuccessToggleButton,
+    .ErrorToggleButton {
+        font-size: 0.75rem !important;
+    }
+}
+
+.SuccessToggleButton {
+    border: 1px solid rgba(0, 200, 83) !important;
+    background-color: rgba(185, 246, 202, 0.376) !important;
+    color: rgba(0, 200, 83) !important;
+}
+
+.ErrorToggleButton {
+    border: 1px solid rgba(244, 67, 54, 0.5) !important;
+    color: rgb(244, 67, 54) !important;
+}

@@ -1,0 +1,14 @@
+.titleText {
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+    padding: 10px 10px 10px 20px;
+}
+
+.paper:hover {
+    box-shadow: rgba(32, 40, 45, 0.08) 0 2px 10px 0 !important;
+}
+
+.droppableBox {
+    padding: 15px;
+    min-height: 100px;
+}

@@ -1,0 +1,89 @@
+spring:
+  thymeleaf:
+    encoding: UTF-8
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+  liquibase:
+    change-log: classpath:/db/db.changelog-master.yaml
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/adopt-me
+    username: postgres
+    password: admin123
+  jpa:
+    show-sql: true
+    hibernate:
+      dialect: org.hibernate.dialect.PostgresPlusDialect
+      ddl-auto: validate
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username:
+    password:
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+frontend:
+  url:
+    passwordReset: http://localhost:3000/password-reset
+    activateAccount: http://localhost:3000/activate-account
+
+loginPassAuth:
+  reset:
+    password:
+      token:
+        expirationInHours: 1
+
+userAccount:
+  activate:
+    account:
+      token:
+        expirationInHours: 1
+
+security:
+  jwt:
+    algorithm:
+      key: 1234
+  whitelist:
+    enabled: false
+  permittedPathsPatterns: |-
+    /auth/login,
+    /auth/register,
+    /auth/check-login-pass-auth,
+    /auth/check-gmail-login-pass-auth,
+    /auth/gmail/**,
+    /password-reset/**,
+    /activate-account/**
+
+  cors:
+    allowedOrigins: |-
+      http://localhost:3000
+    
+
+gmailAuth:
+  client-id: YOUR_GOOGLE_CLIENT_ID
+  client-secret: YOUR_GOOGLE_CLIENT_SECRET
+  redirectUrl: http://localhost:3000/auth/gmail
+  authUrl: https://accounts.google.com/o/oauth2/v2/auth
+  scopes: profile,email
+
+thymeleaf:
+  path:
+    messages: messages
+    templates: templates
+
+notification:
+  maxAttempts: 5
+  resendTimeInMinutes: 10
+  emailPerMilis: 5000
+
+
+
+

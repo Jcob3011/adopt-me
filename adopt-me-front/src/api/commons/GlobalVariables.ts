@@ -1,0 +1,1 @@
+export const attachmentDownloadPath: string = 'http://localhost:8080/attachment/download/'
